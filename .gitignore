@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Database & Local Storage
+backend/truthguard.db
+truthguard.db
+*.sqlite
+*.db
+
+# Node.js & Frontend Build Outputs
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/build/
+.npm/
+
+# IDE & OS Generated Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment & Logs
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
